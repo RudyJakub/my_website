@@ -129,6 +129,10 @@ func (s *Server) ArticleUpdateHandler(c echo.Context) error {
 	})
 }
 
+func (s *Server) GetImageHandler(c echo.Context) error {
+	return c.File("media/me1final.jpg")
+}
+
 func (s *Server) HelloHandler(c echo.Context) error {
 	return c.JSON(http.StatusOK, map[string]string{
 		"message": "Hello World",

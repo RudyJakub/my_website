@@ -31,29 +31,29 @@
 }
 
 .container-post table {
-    table-layout: fixed;
-    width: 100%;
-    border-collapse: collapse;
-    border: 3px solid purple;
-  }
-  
-  .container-post   thead th:nth-child(1) {
-    width: 30%;
-  }
-  
-  .container-post  thead th:nth-child(2) {
-    width: 20%;
-  }
-  
-  .container-post  thead th:nth-child(3) {
-    width: 15%;
-  }
-  
-  .container-post  thead th:nth-child(4) {
-    width: 35%;
-  }
-  
-  .container-post   th,
-  td {
-    padding: 20px;
-  }
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid purple;
+}
+
+.container-post   thead th:nth-child(1) {
+  width: 30%;
+}
+
+.container-post  thead th:nth-child(2) {
+  width: 20%;
+}
+
+.container-post  thead th:nth-child(3) {
+  width: 15%;
+}
+
+.container-post  thead th:nth-child(4) {
+  width: 35%;
+}
+
+.container-post   th,
+td {
+  padding: 20px;
+}

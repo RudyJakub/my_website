@@ -42,6 +42,8 @@ func (s *Server) RegisterRoutes() http.Handler {
 	e.DELETE("/articles/delete", s.ArticleDeleteHandler)
 	e.PUT("/articles/update", s.ArticleUpdateHandler)
 
+	e.GET("/img", s.GetImageHandler)
+
 	return e
 }
 
